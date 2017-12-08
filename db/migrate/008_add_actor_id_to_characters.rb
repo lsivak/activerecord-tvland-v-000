@@ -1,6 +1,6 @@
-class AddNetworkIdToshows < ActiveRecord::Migration
+class AddActorIdToCharacters < ActiveRecord::Migration
 
   def change
-    add_column :shows, :network_id, :integer
+    add_column :characters, :actor_id, :integer
 end
 end
