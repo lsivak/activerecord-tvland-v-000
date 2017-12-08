@@ -2,8 +2,8 @@ class CreateShows < ActiveRecord::Migration
 
   def change
     create_table :shows do |t|
-      t.text :name
-      t.text :genre
+      t.string :name
+      t.string :genre
     end
   end
 end
