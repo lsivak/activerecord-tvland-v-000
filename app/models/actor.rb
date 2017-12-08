@@ -3,8 +3,8 @@ class Actor < ActiveRecord::Base
   has_many :shows, through: :characters
 
   def full_name
-    actor = Actor.create(first_name: first_name, last_name: last_name)
-    actor.first_name
+    actor = Actor.new(first_name: first_name, last_name: last_name)
+
 end
 
 def list_roles
