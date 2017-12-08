@@ -8,7 +8,7 @@ end
 
 def list_roles
   self.characters.collect do |character|
-    character.first_name
+    character.full_name
   end
 end
 end
