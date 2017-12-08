@@ -9,7 +9,7 @@ end
 
 def list_roles
   characters.collect do |character|
-    character.full_name
+    "#{character.name} - #{character.show.name}"
   end
 end
 end
