@@ -1,4 +1,4 @@
-class CreateCharacters < ActiveRecord::migrations
+class CreateCharacters < ActiveRecord::Migration
 
   def change
     create_table characters do |t|
