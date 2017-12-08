@@ -4,6 +4,8 @@ class Actor < ActiveRecord::Base
 
   def full_name
     actor = Actor.create(first_name: first_name, last_name: last_name)
+    actor.first_name
+    actor.last_name
 end
 
 def list_roles
